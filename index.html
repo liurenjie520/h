@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>重定向...</title>
+
+	</head>
+
+	<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
+	<script type="text/javascript">
+		console.log("device.mobile() === %s", device.mobile());
+		if(device.mobile() == false) {
+			window.location.href = "https://liurenjie520.github.io/sina/";
+		} else {
+			
+			window.location.href = "https://liurenjie520.github.io/sina/H5.html";
+		}
+	</script>
+
+	<body>
+	</body>
+
+</html>
